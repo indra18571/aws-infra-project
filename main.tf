@@ -37,6 +37,7 @@ module "cw-profile" {
 
 module "input-ec2" {
   source = "./modules/infra/pre-ec2"
+  key-name = var.key-name
 }
 
 module "instances" {
