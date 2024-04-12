@@ -1,0 +1,1 @@
+output "ec2-alarm" { value = aws_cloudwatch_metric_alarm.this.id}
